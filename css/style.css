@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Alice-Regular";
+    src: url(/fonts/Alice-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "IndieFlower-Regular";
+    src: url(/fonts/IndieFlower-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Dancing-Flex";
+    src: url(/fonts/DancingScript-VariableFont_wght.ttf) format('woff2 supports variations'), url(/fonts/DancingScript-VariableFont_wght.ttf) format('woff2-variations');
+    font-weight: 400 700;
+	font-stretch: 25% 151%;
+}
+
+h1, p {
+    font-family: "Dancing-Flex", sans-serif;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+span {
+    font-weight: 700;
+    color: green;
+}
